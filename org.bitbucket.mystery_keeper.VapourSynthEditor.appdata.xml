@@ -32,10 +32,10 @@
 	<developer_name>Aleksey [Mystery Keeper] Lyashin</developer_name>
 	<screenshots>
 		<screenshot type="default">
-			<image type="source">screen1.png</image>
+			<image type="source">https://raw.githubusercontent.com/flathub/org.bitbucket.mystery_keeper.VapourSynthEditor/master/screenshot1.png</image>
 		</screenshot>
 		<screenshot>
-			<image type="source">screen2.png</image>
+			<image type="source">https://raw.githubusercontent.com/flathub/org.bitbucket.mystery_keeper.VapourSynthEditor/master/screenshot2.png</image>
 		</screenshot>
 	</screenshots>
 	<update_contact>sakcheen+flathub_AT_gmail.com</update_contact>
