@@ -14,8 +14,8 @@ add-extensions:
   org.bitbucket.mystery_keeper.VapourSynthEditor.Plugin:
     versions: 1-5.12
     directory: extensions
-    add-ld-path: lib
-    subdirectories: false
+    merge-dirs: lib
+    subdirectories: true
     autodelete: true
     no-autodownload: true
 cleanup:

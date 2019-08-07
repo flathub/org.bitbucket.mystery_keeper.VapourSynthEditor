@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
 Name=VapourSynth Editor
-Exec=vsedit
+Exec=vsedit.sh
 Icon=org.bitbucket.mystery_keeper.VapourSynthEditor
 Categories=AudioVideo;Video;AudioVideoEditing;
