@@ -30,8 +30,8 @@ modules:
       - --disable-static
     sources:
       - type: archive
-        url: https://github.com/sekrit-twc/zimg/archive/release-2.9.1.tar.gz
-        sha256: 8efa0c381aa6a9bcd5ea4ae22ad06dccf6c1dc705c394547de016951d1946154
+        url: https://github.com/sekrit-twc/zimg/archive/release-2.9.2.tar.gz
+        sha256: 10403c2964fe11b559a7ec5e081c358348fb787e26b91ec0d1f9dd7c01d1cd7b
     cleanup:
       - /share/doc
 
@@ -64,8 +64,8 @@ modules:
       - --with-pic
     sources:
       - type: archive
-        url: https://github.com/ImageMagick/ImageMagick/archive/7.0.8-56.tar.gz
-        sha256: 061b80fdc3dc254acb6d61166162e4cdfed5f1ded19034ca0cc15497c4e19f38
+        url: https://github.com/ImageMagick/ImageMagick/archive/7.0.8-59.tar.gz
+        sha256: 238ee17196fcb80bb58485910aaefc12d48f99e4043c2a28f06ff9588161c4e3
     cleanup:
       - /bin
       - /etc
@@ -73,5 +73,5 @@ modules:
       - /share/ImageMagick*
 sources:
   - type: archive
-    url: https://github.com/vapoursynth/vapoursynth/archive/R46.tar.gz
-    sha256: e0b6e538cc54a021935e89a88c5fdae23c018873413501785c80b343c455fe7f
+    url: https://github.com/vapoursynth/vapoursynth/archive/R47.1.tar.gz
+    sha256: 095509b088ed1c3ba452ee0fed4a5f134719ac817ffc594f79557f499ad9fa6b
