@@ -1,6 +1,6 @@
 app-id: org.bitbucket.mystery_keeper.VapourSynthEditor
 runtime: org.kde.Platform
-runtime-version: '5.12'
+runtime-version: '5.13'
 sdk: org.kde.Sdk
 command: vsedit.sh
 finish-args:
@@ -12,7 +12,7 @@ finish-args:
   - --filesystem=xdg-videos
 add-extensions:
   org.bitbucket.mystery_keeper.VapourSynthEditor.Plugin:
-    versions: 1-5.12
+    versions: 1-5.13
     directory: extensions
     merge-dirs: lib
     subdirectories: true
