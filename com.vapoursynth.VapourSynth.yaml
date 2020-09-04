@@ -1,15 +1,5 @@
 name: VapourSynth
 modules:
-  - name: Cython
-    buildsystem: simple
-    build-commands:
-      - python3 setup.py install --prefix="${FLATPAK_DEST}" --optimize=1
-    sources:
-      - type: archive
-        url: https://github.com/cython/cython/archive/0.29.13.tar.gz
-        sha256: af71d040fa9fa1af0ea2b7a481193776989ae93ae828eb018416cac771aef07f
-    cleanup: ['*']
-
   - name: libass
     config-opts:
       - --disable-static
@@ -30,8 +20,8 @@ modules:
       - --disable-static
     sources:
       - type: archive
-        url: https://github.com/sekrit-twc/zimg/archive/release-2.9.2.tar.gz
-        sha256: 10403c2964fe11b559a7ec5e081c358348fb787e26b91ec0d1f9dd7c01d1cd7b
+        url: https://github.com/sekrit-twc/zimg/archive/release-3.0.1.tar.gz
+        sha256: c50a0922f4adac4efad77427d13520ed89b8366eef0ef2fa379572951afcc73f
     cleanup:
       - /share/doc
 
@@ -45,14 +35,14 @@ modules:
           - --with-pic
         sources:
           - type: archive
-            url: http://www.leptonica.org/source/leptonica-1.78.0.tar.gz
-            sha256: e2ed2e81e7a22ddf45d2c05f0bc8b9ae7450545d995bfe28517ba408d14a5a88
+            url: http://www.leptonica.org/source/leptonica-1.80.0.tar.gz
+            sha256: ec9c46c2aefbb960fb6a6b7f800fe39de48343437b6ce08e30a8d9688ed14ba4
         cleanup:
           - /bin
     sources:
       - type: archive
-        url: https://github.com/tesseract-ocr/tesseract/archive/4.1.0.tar.gz
-        sha256: 5c5ed5f1a76888dc57a83704f24ae02f8319849f5c4cf19d254296978a1a1961
+        url: https://github.com/tesseract-ocr/tesseract/archive/4.1.1.tar.gz
+        sha256: 2a66ff0d8595bff8f04032165e6c936389b1e5727c3ce5a27b3e059d218db1cb
     cleanup:
       - /bin
 
@@ -64,8 +54,8 @@ modules:
       - --with-pic
     sources:
       - type: archive
-        url: https://github.com/ImageMagick/ImageMagick/archive/7.0.8-65.tar.gz
-        sha256: 14afaf722d8964ed8de2ebd8184a229e521f1425e18e7274806f06e008bf9aa7
+        url: https://github.com/ImageMagick/ImageMagick/archive/7.0.10-28.tar.gz
+        sha256: 9f2b8b131222354b196c640fca4e53eb0bbf62246621b9d467f223366272d7a7
     cleanup:
       - /bin
       - /etc
@@ -73,5 +63,5 @@ modules:
       - /share/ImageMagick*
 sources:
   - type: archive
-    url: https://github.com/vapoursynth/vapoursynth/archive/R47.1.tar.gz
-    sha256: 095509b088ed1c3ba452ee0fed4a5f134719ac817ffc594f79557f499ad9fa6b
+    url: https://github.com/vapoursynth/vapoursynth/archive/R52.tar.gz
+    sha256: 4d5dc7950f4357da695d29708bc98013bc3e0bd72fc5d697f8c91ce3c4a4b2ac
