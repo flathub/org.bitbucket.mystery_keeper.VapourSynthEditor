@@ -58,11 +58,12 @@ modules:
       - type: archive
         url: https://github.com/tesseract-ocr/tesseract/archive/4.1.1.tar.gz
         sha256: 2a66ff0d8595bff8f04032165e6c936389b1e5727c3ce5a27b3e059d218db1cb
-        # x-checker-data:
-        #   type: anitya
-        #   project-id: 4954
-        #   stable-only: true
-        #   url-template: https://github.com/tesseract-ocr/tesseract/archive/$version.tar.gz
+        x-checker-data:
+          type: json
+          url: https://api.github.com/repos/tesseract-ocr/tesseract/releases/latest
+          timestamp-query: .published_at
+          url-query: .tarball_url
+          version-query: .tag_name
     cleanup:
       - /bin
 
