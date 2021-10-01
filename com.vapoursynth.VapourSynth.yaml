@@ -55,14 +55,15 @@ modules:
         cleanup:
           - /bin
     sources:
-      - type: archive
-        url: https://github.com/tesseract-ocr/tesseract/archive/4.1.1.tar.gz
-        sha256: 2a66ff0d8595bff8f04032165e6c936389b1e5727c3ce5a27b3e059d218db1cb
+      - type: git
+        url: https://github.com/tesseract-ocr/tesseract.git
+        tag: '4.1.1'
+        commit: 75103040c94ffd7fe5e4e3dfce0a7e67a8420849
         x-checker-data:
           type: json
           url: https://api.github.com/repos/tesseract-ocr/tesseract/releases/latest
           timestamp-query: .published_at
-          url-query: .tarball_url
+          tag-query: .tag_name
           version-query: .tag_name
     cleanup:
       - /bin
