@@ -56,8 +56,8 @@ modules:
           - /bin
     sources:
       - type: archive
-        url: https://github.com/tesseract-ocr/tesseract/archive/4.1.1.tar.gz
-        sha256: 2a66ff0d8595bff8f04032165e6c936389b1e5727c3ce5a27b3e059d218db1cb
+        url: https://api.github.com/repos/tesseract-ocr/tesseract/tarball/4.1.1
+        sha256: 5e477a1219c8a7e0dde16d2452edcd978525bea7b9cb9e1a9b3cc78e603c454b
         x-checker-data:
           type: json
           url: https://api.github.com/repos/tesseract-ocr/tesseract/releases/latest
