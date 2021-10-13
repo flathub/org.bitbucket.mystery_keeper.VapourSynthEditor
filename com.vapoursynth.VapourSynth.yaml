@@ -76,8 +76,8 @@ modules:
       - --with-pic
     sources:
       - type: archive
-        url: https://github.com/ImageMagick/ImageMagick/archive/7.1.0-9.tar.gz
-        sha256: b043b2f7af06f58af9789e1c42aaeb83df2804944fe14b4cdab2ad0c85e36893
+        url: https://github.com/ImageMagick/ImageMagick/archive/7.1.0-10.tar.gz
+        sha256: a2139da9a7c2e97f28861dfb18986f1d03435cf72e8ee4cc720a4997b5fa8d66
         x-checker-data:
           type: anitya
           project-id: 1372
@@ -90,8 +90,8 @@ modules:
       - /share/ImageMagick*
 sources:
   - type: archive
-    url: https://github.com/vapoursynth/vapoursynth/archive/R56.tar.gz
-    sha256: 15b325da458c9ee56aca22625737afe40c761a68ef74227fd7679f3fc595ee41
+    url: https://github.com/vapoursynth/vapoursynth/archive/R57.tar.gz
+    sha256: 9bed2ab1823050cfcbdbb1a57414e39507fd6c73f07ee4b5986fcbf0f6cb2d07
     x-checker-data:
       type: anitya
       project-id: 15982
