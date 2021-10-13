@@ -90,8 +90,8 @@ modules:
       - /share/ImageMagick*
 sources:
   - type: archive
-    url: https://github.com/vapoursynth/vapoursynth/archive/R56.tar.gz
-    sha256: 15b325da458c9ee56aca22625737afe40c761a68ef74227fd7679f3fc595ee41
+    url: https://github.com/vapoursynth/vapoursynth/archive/R57.tar.gz
+    sha256: 9bed2ab1823050cfcbdbb1a57414e39507fd6c73f07ee4b5986fcbf0f6cb2d07
     x-checker-data:
       type: anitya
       project-id: 15982
