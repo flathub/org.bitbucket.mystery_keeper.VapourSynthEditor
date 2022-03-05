@@ -57,8 +57,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/tesseract-ocr/tesseract.git
-        tag: 5.0.1
-        commit: 5d5cd77e3dbb03f8e4c06289baa77bb299ab859a
+        tag: 5.1.0
+        commit: c2a3efe2824e1c8a0810e82a43406ba8e01527c4
         x-checker-data:
           type: json
           url: https://api.github.com/repos/tesseract-ocr/tesseract/releases/latest
@@ -76,8 +76,8 @@ modules:
       - --with-pic
     sources:
       - type: archive
-        url: https://github.com/ImageMagick/ImageMagick/archive/7.1.0-24.tar.gz
-        sha256: 57c3712b92c8e47403990cead4f5c5f4b5f50be3a5ee9e7602d4501db6ebed13
+        url: https://github.com/ImageMagick/ImageMagick/archive/7.1.0-27.tar.gz
+        sha256: e0db0cf0d8cb93be9793f6b6ec3dac91194a753b809ff2cfca8b8ffb4072d63c
         x-checker-data:
           type: anitya
           project-id: 1372
