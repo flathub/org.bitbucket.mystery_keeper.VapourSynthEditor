@@ -1,4 +1,7 @@
 name: VapourSynth
+config-opts:
+  - --with-python-prefix=${FLATPAK_DEST}
+
 modules:
   - name: libass
     config-opts:
