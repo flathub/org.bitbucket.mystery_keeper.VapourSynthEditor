@@ -11,8 +11,8 @@ modules:
       - --enable-fontconfig
     sources:
       - type: archive
-        url: https://github.com/libass/libass/releases/download/0.15.2/libass-0.15.2.tar.xz
-        sha256: 1be2df9c4485a57d78bb18c0a8ed157bc87a5a8dd48c661961c625cb112832fd
+        url: https://github.com/libass/libass/releases/download/0.16.0/libass-0.16.0.tar.xz
+        sha256: 5dbde9e22339119cf8eed59eea6c623a0746ef5a90b689e68a090109078e3c08
         x-checker-data:
           type: anitya
           project-id: 1560
@@ -60,8 +60,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/tesseract-ocr/tesseract.git
-        tag: 5.1.0
-        commit: c2a3efe2824e1c8a0810e82a43406ba8e01527c4
+        tag: 5.2.0
+        commit: 5ad5325a0aa8effc47ca033625b6a51682f82767
         x-checker-data:
           type: json
           url: https://api.github.com/repos/tesseract-ocr/tesseract/releases/latest
@@ -79,8 +79,8 @@ modules:
       - --with-pic
     sources:
       - type: archive
-        url: https://github.com/ImageMagick/ImageMagick/archive/7.1.0-35.tar.gz
-        sha256: b368a792a3f104c819b496b495348e53ae28b8d15b71c18ced886083822ff30c
+        url: https://github.com/ImageMagick/ImageMagick/archive/7.1.0-41.tar.gz
+        sha256: f8ec06b5c82cbab4734b166b820f151323c78f438580daa176cedc63990c00a2
         x-checker-data:
           type: anitya
           project-id: 1372
@@ -93,8 +93,8 @@ modules:
       - /share/ImageMagick*
 sources:
   - type: archive
-    url: https://github.com/vapoursynth/vapoursynth/archive/R58.tar.gz
-    sha256: 19c1169eba61d7044354da3247a3a7c02a058220054ef2a8f501bfac5fed3bfc
+    url: https://github.com/vapoursynth/vapoursynth/archive/R59.tar.gz
+    sha256: d713f767195cb3a9a7ccb97b1e61e0cf5a9332eed86c6362badfff6857792a86
     x-checker-data:
       type: anitya
       project-id: 15982
