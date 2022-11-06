@@ -11,8 +11,8 @@ modules:
       - --enable-fontconfig
     sources:
       - type: archive
-        url: https://github.com/libass/libass/releases/download/0.15.2/libass-0.15.2.tar.xz
-        sha256: 1be2df9c4485a57d78bb18c0a8ed157bc87a5a8dd48c661961c625cb112832fd
+        url: https://github.com/libass/libass/releases/download/0.16.0/libass-0.16.0.tar.xz
+        sha256: 5dbde9e22339119cf8eed59eea6c623a0746ef5a90b689e68a090109078e3c08
         x-checker-data:
           type: anitya
           project-id: 1560
@@ -79,8 +79,8 @@ modules:
       - --with-pic
     sources:
       - type: archive
-        url: https://github.com/ImageMagick/ImageMagick/archive/7.1.0-49.tar.gz
-        sha256: 18863242462733245308281353eeef27e86a8d0f5f805f8f5fb6293d5bc66b5d
+        url: https://github.com/ImageMagick/ImageMagick/archive/7.1.0-52.tar.gz
+        sha256: bacd6d63f16482f269bf5cfe76d34b9a2b01ec737e9cb41fd2612d37f34698fc
         x-checker-data:
           type: anitya
           project-id: 1372
