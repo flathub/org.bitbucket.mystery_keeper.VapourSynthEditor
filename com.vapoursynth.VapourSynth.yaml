@@ -11,8 +11,8 @@ modules:
       - --enable-fontconfig
     sources:
       - type: archive
-        url: https://github.com/libass/libass/releases/download/0.15.2/libass-0.15.2.tar.xz
-        sha256: 1be2df9c4485a57d78bb18c0a8ed157bc87a5a8dd48c661961c625cb112832fd
+        url: https://github.com/libass/libass/releases/download/0.17.0/libass-0.17.0.tar.xz
+        sha256: 971e2e1db59d440f88516dcd1187108419a370e64863f70687da599fdf66cc1a
         x-checker-data:
           type: anitya
           project-id: 1560
@@ -48,8 +48,8 @@ modules:
           - --with-pic
         sources:
           - type: archive
-            url: http://www.leptonica.org/source/leptonica-1.82.0.tar.gz
-            sha256: 155302ee914668c27b6fe3ca9ff2da63b245f6d62f3061c8f27563774b8ae2d6
+            url: http://www.leptonica.org/source/leptonica-1.83.0.tar.gz
+            sha256: 206591dd58cf84ef380836dad133b58c9d1af92491f5a9825c346a162044bcfe
             x-checker-data:
               type: anitya
               project-id: 1549
@@ -79,8 +79,8 @@ modules:
       - --with-pic
     sources:
       - type: archive
-        url: https://github.com/ImageMagick/ImageMagick/archive/7.1.0-49.tar.gz
-        sha256: 18863242462733245308281353eeef27e86a8d0f5f805f8f5fb6293d5bc66b5d
+        url: https://github.com/ImageMagick/ImageMagick/archive/7.1.0-55.tar.gz
+        sha256: 77e1535448d6c7f951a8c9d10804246b76044b879adf5bf1f12c836ed9d4b5ec
         x-checker-data:
           type: anitya
           project-id: 1372
@@ -93,8 +93,8 @@ modules:
       - /share/ImageMagick*
 sources:
   - type: archive
-    url: https://github.com/vapoursynth/vapoursynth/archive/R60.tar.gz
-    sha256: d0ff9b7d88d4b944d35dd7743d72ffcea5faa687f6157b160f57be45f4403a30
+    url: https://github.com/vapoursynth/vapoursynth/archive/R61.tar.gz
+    sha256: a5d4feeb056679dd1204153250d7c1d38e5a639e995d3c4e3a8e2e8fe1425b75
     x-checker-data:
       type: anitya
       project-id: 15982
