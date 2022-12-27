@@ -11,8 +11,8 @@ modules:
       - --enable-fontconfig
     sources:
       - type: archive
-        url: https://github.com/libass/libass/releases/download/0.15.2/libass-0.15.2.tar.xz
-        sha256: 1be2df9c4485a57d78bb18c0a8ed157bc87a5a8dd48c661961c625cb112832fd
+        url: https://github.com/libass/libass/releases/download/0.17.0/libass-0.17.0.tar.xz
+        sha256: 971e2e1db59d440f88516dcd1187108419a370e64863f70687da599fdf66cc1a
         x-checker-data:
           type: anitya
           project-id: 1560
@@ -48,8 +48,8 @@ modules:
           - --with-pic
         sources:
           - type: archive
-            url: http://www.leptonica.org/source/leptonica-1.82.0.tar.gz
-            sha256: 155302ee914668c27b6fe3ca9ff2da63b245f6d62f3061c8f27563774b8ae2d6
+            url: http://www.leptonica.org/source/leptonica-1.83.0.tar.gz
+            sha256: 206591dd58cf84ef380836dad133b58c9d1af92491f5a9825c346a162044bcfe
             x-checker-data:
               type: anitya
               project-id: 1549
@@ -60,8 +60,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/tesseract-ocr/tesseract.git
-        tag: 5.2.0
-        commit: 5ad5325a0aa8effc47ca033625b6a51682f82767
+        tag: 5.3.0
+        commit: 080da83cc51c4ef8b324a7e03146fe0bd7e0944b
         x-checker-data:
           type: json
           url: https://api.github.com/repos/tesseract-ocr/tesseract/releases/latest
@@ -93,8 +93,8 @@ modules:
       - /share/ImageMagick*
 sources:
   - type: archive
-    url: https://github.com/vapoursynth/vapoursynth/archive/R60.tar.gz
-    sha256: d0ff9b7d88d4b944d35dd7743d72ffcea5faa687f6157b160f57be45f4403a30
+    url: https://github.com/vapoursynth/vapoursynth/archive/R61.tar.gz
+    sha256: a5d4feeb056679dd1204153250d7c1d38e5a639e995d3c4e3a8e2e8fe1425b75
     x-checker-data:
       type: anitya
       project-id: 15982
