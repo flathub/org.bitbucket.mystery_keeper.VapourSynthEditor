@@ -11,8 +11,8 @@ modules:
       - --enable-fontconfig
     sources:
       - type: archive
-        url: https://github.com/libass/libass/releases/download/0.15.2/libass-0.15.2.tar.xz
-        sha256: 1be2df9c4485a57d78bb18c0a8ed157bc87a5a8dd48c661961c625cb112832fd
+        url: https://github.com/libass/libass/releases/download/0.17.2/libass-0.17.2.tar.xz
+        sha256: e8261b51d66ba933fe99248c6fdd8767ed96c5a7e5363c83992c735a2c2fbf74
         x-checker-data:
           type: anitya
           project-id: 1560
@@ -28,8 +28,8 @@ modules:
       - --disable-static
     sources:
       - type: archive
-        url: https://github.com/sekrit-twc/zimg/archive/release-3.0.4.tar.gz
-        sha256: 219d1bc6b7fde1355d72c9b406ebd730a4aed9c21da779660f0a4c851243e32f
+        url: https://github.com/sekrit-twc/zimg/archive/release-3.0.5.tar.gz
+        sha256: a9a0226bf85e0d83c41a8ebe4e3e690e1348682f6a2a7838f1b8cbff1b799bcf
         x-checker-data:
           type: anitya
           project-id: 13685
@@ -48,8 +48,8 @@ modules:
           - --with-pic
         sources:
           - type: archive
-            url: http://www.leptonica.org/source/leptonica-1.82.0.tar.gz
-            sha256: 155302ee914668c27b6fe3ca9ff2da63b245f6d62f3061c8f27563774b8ae2d6
+            url: http://www.leptonica.org/source/leptonica-1.84.1.tar.gz
+            sha256: 2b3e1254b1cca381e77c819b59ca99774ff43530209b9aeb511e1d46588a64f6
             x-checker-data:
               type: anitya
               project-id: 1549
@@ -60,8 +60,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/tesseract-ocr/tesseract.git
-        tag: 5.2.0
-        commit: 5ad5325a0aa8effc47ca033625b6a51682f82767
+        tag: 5.3.4
+        commit: 8ee020e14cf5be4e3f0e9beb09b6b050a1871854
         x-checker-data:
           type: json
           url: https://api.github.com/repos/tesseract-ocr/tesseract/releases/latest
@@ -79,8 +79,8 @@ modules:
       - --with-pic
     sources:
       - type: archive
-        url: https://github.com/ImageMagick/ImageMagick/archive/7.1.0-49.tar.gz
-        sha256: 18863242462733245308281353eeef27e86a8d0f5f805f8f5fb6293d5bc66b5d
+        url: https://github.com/ImageMagick/ImageMagick/archive/7.1.1-32.tar.gz
+        sha256: fda0c1a5fdf511721893014370a6303413c70e0c11f2b543a7a4aff36f8c6e92
         x-checker-data:
           type: anitya
           project-id: 1372
